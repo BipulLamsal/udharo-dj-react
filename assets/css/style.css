@@ -31,6 +31,7 @@
 {
     position: relative;
     height: 100vh;
+    background-color: #ededed8e;
 }
 .left-search:focus
 {
@@ -55,9 +56,37 @@
 background-color: #ebf4f5c0;
 
 }
-.logo-name
+.udharo-recieve
 {
-font-size: 18px;
-font-weight: 700;
+    background: hsla(210, 90%, 80%, 1);
 
+    background: linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(210, 90%, 80%, 1) 0%, hsla(212, 93%, 49%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9FCCFA", endColorstr="#0974F1", GradientType=1 );
+border-radius: 5px;
+
+}
+
+.udharo-give
+{
+    
+    background: hsla(145, 84%, 73%, 1);
+
+background: linear-gradient(90deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(145, 84%, 73%, 1) 0%, hsla(150, 61%, 48%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#82F4B1", endColorstr="#30C67C", GradientType=1 );
+border-radius: 5px;
+}
+
+.udharo-give p, .udharo-recieve p
+{
+    color: #fff;
 }
